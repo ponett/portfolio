@@ -1,0 +1,73 @@
+/* 공통 */
+*{padding: 0; margin: 0;}
+li{list-style: none;}
+.clear{clear: both;}
+.inner{width: 1200px; margin: 0 auto; }
+
+/* 헤더 */
+.header{width: 100%;}
+.top_black{width: 100%;height: 40px; background-color: #313131; color: #cacaca;
+line-height: 40px;}
+.black_left{width: 500px; float: left;}
+.black_left>li{float: left;}
+.black_left>li::before{display: inline-block; content: "ㅣ"; padding: 0 10px;}
+.black_left>li:nth-child(1)::before{display: none;}
+.black_right{float: right;}
+
+.top_whith{width: 100%; height: 76px; line-height: 76px;}
+.top_whith>.inner{position: relative;}
+.logo{float: left; width: 115px;}
+.logo>img{width: 100%; padding-top: 5px;}
+.menu{position: absolute; width: 920px; left: 0; right: 0; margin: 0 auto;}
+.menu>li{float: left; padding-left: 100px;line-height: 76px; color: #363636;}
+.select_2{width: 77px; height: 76px; background-image: url(../img/희망브리지_35.png); float: right;}
+
+/* 메인 */
+.mainimg{width: 100%; height: 582px; background-image: url(../img/희망브리지_11.png); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;}
+.down_btn{position: absolute; width: 60px; height: 60px; left: 0; right: 0; margin: 0 auto; bottom: -30px;}
+
+/* 컨텐츠 */
+.contents{width: 100%; padding-top: 100px;}
+.box1{width: 100%; height: 300px;}
+.list{width: 25% ;height: 300px; float: left; text-align: center;}
+.list>h3{font-size: 25px; padding: 20px 0 ; color: #54504d;}
+.list>p{width: 70%; margin: 0 auto; letter-spacing: -1px; color: #54504d; font-size: 13px;}
+
+.box2{width:100%; height: 771px; background-image: url(../img/희망브리지37.png); background-repeat: no-repeat; background-position: center center; background-size: cover; position: relative;}
+.box2>.inner{position: absolute; left: 0; right: 0; margin: 0 auto; padding-top: 170px;}
+.box2>.inner>h1{text-align: center; color: #54504d; margin-bottom: 50px;}
+.set_left{width: 50%; height: 400px; float: left;  border-radius: 15px;}
+.set_left>img{border-radius: 15px; width: 100%; height: 100%;}
+.set_cen{width: 24%; height: 400px; float: left; margin-left: 1%;}
+
+.orange{width: 100%; height:194px; background-color: #e88d0a; margin-bottom: 10px; border-radius: 15px; background-image: url(../img/희망브리지_30.png);background-repeat: no-repeat; background-position: 90% 90%;}
+.orange>div{padding: 30px; color: white;}
+.orange>div>h3{padding-bottom: 20px; letter-spacing: -2px;}
+.orange>div>p{padding-bottom: 20px; width: 85%; font-size: 14px; letter-spacing: -2px; line-height: 22px;}
+
+.red{width: 100%; height: 194px; background-color:#e8340a; border-radius: 15px; background-image: url(../img/희망브리지_33.png); background-repeat: no-repeat; background-position: 90% 90%;}
+
+.red>div{padding:30px; color: white;}
+.red>div>h3{padding-bottom: 20px; letter-spacing: -1px;}
+.red>div>p{padding-bottom: 20px; width: 95%; font-size: 13px; letter-spacing: -2px; line-height: 22px;}
+
+.set_right{width: 24%; height: 396px; background-color: white; float: left; margin-left: 1%; border-radius: 15px; color: #54504d;}
+.set_right>div{padding: 40px;}
+.set_right>div>h3{padding-bottom: 20px;}
+.set_right>div>p{padding-bottom: 20px;}
+.set_right>div>.date{font-size: 12px;}
+.line{border-bottom : 1px solid #a0a0a0; margin: 20px 0;}
+.more{font-size: 14px; text-decoration: underline;}
+
+/* 푸터 */
+.footer_top{width: 100%; height: 55px;
+background-color: #313131; color: #c6c6c6; line-height: 55px;}
+.footer_top>.inner>span{padding-left: 30px;}
+.footer_top>.inner>span:nth-child(1){padding-left: 0;}
+
+.footer_bottom{width: 100%; height: 134px; background-color: #2a2a2a; color:#c6c6c6; padding-top: 30px;}
+.footer_bottom>.inner>p:nth-child(1){padding-bottom: 25px;}
+
+.footer_2{width: 100%; height: 150px; margin-top: 80px;}
+.top{width: 80px;height: 80px; background-color: plum;border-radius: 50px; text-align: center;margin: 0 auto; line-height: 80px; color: white; font-weight: bold; font-size: 20px; }
+a{text-decoration-line : none;}

@@ -1,0 +1,208 @@
+/* 공통으로 들어갈것 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.inner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+/* 헤더*/
+.header {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+}
+
+.logo {
+    width: 230px;
+    height: 29px;
+    float: left;
+}
+
+.top_banner {
+    float: right;
+    color: #6d6d6d;
+
+}
+
+.header>.inner {
+    position: relative;
+    width: 1400px;
+    height: 90px;
+}
+
+.header>.inner>.menu {
+    position: absolute;
+    width: 600px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #6d6d6d;
+}
+
+.menu>li {
+    width: 150px;
+    float: left;
+}
+
+
+
+.one {
+    width: 50px;
+    height: 50px;
+
+}
+
+.one>img {
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+
+/* 메인이미지 */
+.mainimg {
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.main_bg {
+    width: 100%;
+    height: 450px;
+    background-color: antiquewhite;
+    top: 90px;
+    position: absolute;
+}
+
+.main_img {
+    width: 1400px;
+    height: 600px;
+    background-image: url(../img/굿리치main_03.png);
+    background-size: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    top: 130px;
+}
+
+.phon {
+    width: 520px;
+    height: 620px;
+    background-image: url(../img/굿리치phon.png);
+    position: absolute;
+    left: 220px;
+    right: 0;
+    margin: 0 auto;
+    background-size: 100%;
+    top: 130px;
+}
+
+/* 컨텐츠 */
+.box1 {
+    width: 100%;
+    height: 560px;
+}
+
+.list {
+    width: 25%;
+    float: left;
+}
+
+.list>h2 {
+    padding-bottom: 20px;
+}
+
+.list>p {
+    padding-bottom: 40px;
+}
+
+.line {
+    width: 326px;
+    height: 160px;
+    border: 1px solid #535353;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.box2 {
+    width: 100%;
+    height: 240px;
+    border-top: 1px solid #929292;
+    border-bottom: 1px solid #929292;
+}
+
+.box_text {
+    float: left;
+    padding-top: 80px;
+}
+
+.box_text>span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box_img {
+    float: right;
+    padding-top: 30px;
+}
+
+/* 푸터 */
+
+.footer {
+    width: 100%;
+    height: 100px;
+}
+
+.footer_info {
+    float: left;
+    font-size: 13px;
+    color: #000;
+    padding-top: 30px;
+}
+
+
+
+.footer_btn {
+    float: right;
+    padding-top: 35px;
+}
+
+.footer_btn>li {
+    width: 90px;
+    height: 30px;
+    float: left;
+    border: 1px solid #ffa61e;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 7px;
+    color: #ffa61e;
+}
+
+.border_none {
+    border: none ! important
+}
+
+.border_none>select {
+    width: 90px;
+    height: 30px;
+    border: 1px solid gray;
+
+
+
+}
+
+.footer_2{width: 100%; height: 150px; margin-top: 80px;}
+.top{width: 80px;height: 80px; background-color: plum;border-radius: 50px; text-align: center;margin: 0 auto; line-height: 80px; color: white; font-weight: bold; font-size: 20px; }
+a{text-decoration-line : none;}
